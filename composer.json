@@ -1,0 +1,23 @@
+{
+  "name": "mperk/html-cleaner",
+  "type": "typo3-flow-package",
+  "description": "",
+  "authors": [
+    {
+      "name": "Michael Perk",
+      "email": "perk.michael@t-online.de",
+      "role": "Developer"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "typo3/flow": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MPerk\\HtmlCleaner\\": "Classes"
+    }
+  }
+}

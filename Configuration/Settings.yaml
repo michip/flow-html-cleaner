@@ -1,0 +1,15 @@
+MPerk:
+  HTMLCleaner:
+    validTags:
+      b: ,
+      i: ,
+      u: ,
+      div: ,
+      br: ,
+      ul: ,
+      li: ,
+      ol: ,
+      span:
+        style:
+          line-height: 1.42857
+    invalidTagsToDelete: [script]
