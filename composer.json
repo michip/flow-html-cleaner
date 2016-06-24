@@ -1,6 +1,7 @@
 {
   "name": "mperk/html-cleaner",
   "type": "typo3-flow-package",
+  "version": "1.0.0",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "description": "",
