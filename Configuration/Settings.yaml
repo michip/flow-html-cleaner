@@ -1,6 +1,10 @@
 MPerk:
   HTMLCleaner:
     validTags:
+      #Keys: Valid tags which will be ignored while cleaning up.
+      #Values (optional): Array of attributes and their values which shall not get removed by the cleaner.
+      #For example 'id: test' option will cause that no id attribute with the value 'test' will get deleted.
+      #In case you only want to keep certain styles you can provide an array of css rules to keep.
       b: ,
       i: ,
       u: ,
