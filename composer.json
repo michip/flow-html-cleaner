@@ -1,6 +1,8 @@
 {
   "name": "mperk/html-cleaner",
   "type": "typo3-flow-package",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "description": "",
   "authors": [
     {
@@ -19,6 +21,5 @@
     "psr-4": {
       "MPerk\\HtmlCleaner\\": "Classes"
     }
-  },
-  "minimum-stability": "stable"
+  }
 }
